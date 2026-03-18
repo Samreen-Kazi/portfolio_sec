@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 228 25% 96%;
+    --foreground: 224 20% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 20% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 20% 14%;
+
+    --primary: 230 72% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 224 14% 94%;
+    --secondary-foreground: 224 20% 14%;
+
+    --muted: 224 14% 96%;
+    --muted-foreground: 224 10% 44%;
+
+    --accent: 260 60% 58%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 56%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 224 14% 90%;
+    --input: 224 14% 90%;
+    --ring: 230 72% 58%;
+
+    --radius: 0.625rem;
+
+    --glow-primary: 0 0 20px hsl(230 72% 58% / 0.12);
+    --glow-primary-intense: 0 0 30px hsl(230 72% 58% / 0.2);
+
+    --sidebar-background: 0 0% 99%;
+    --sidebar-foreground: 224 10% 28%;
+    --sidebar-primary: 230 72% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 224 14% 96%;
+    --sidebar-accent-foreground: 224 20% 14%;
+    --sidebar-border: 224 14% 90%;
+    --sidebar-ring: 230 72% 58%;
+  }
+
+  .dark {
+    --background: 224 24% 8%;
+    --foreground: 0 0% 94%;
+
+    --card: 224 24% 11%;
+    --card-foreground: 0 0% 94%;
+
+    --popover: 224 24% 11%;
+    --popover-foreground: 0 0% 94%;
+
+    --primary: 230 72% 62%;
+    --primary-foreground: 224 24% 8%;
+
+    --secondary: 224 18% 16%;
+    --secondary-foreground: 0 0% 94%;
+
+    --muted: 224 18% 16%;
+    --muted-foreground: 224 10% 52%;
+
+    --accent: 260 60% 64%;
+    --accent-foreground: 224 24% 8%;
+
+    --destructive: 0 62% 42%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 224 18% 20%;
+    --input: 224 18% 20%;
+    --ring: 230 72% 62%;
+
+    --glow-primary: 0 0 20px hsl(230 72% 62% / 0.18);
+    --glow-primary-intense: 0 0 40px hsl(230 72% 62% / 0.28);
+
+    --sidebar-background: 224 24% 10%;
+    --sidebar-foreground: 0 0% 94%;
+    --sidebar-primary: 230 72% 62%;
+    --sidebar-primary-foreground: 224 24% 8%;
+    --sidebar-accent: 224 18% 16%;
+    --sidebar-accent-foreground: 0 0% 94%;
+    --sidebar-border: 224 18% 20%;
+    --sidebar-ring: 230 72% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Light mode subtle texture */
+  :root body {
+    background-image: radial-gradient(hsl(230 72% 58% / 0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  .dark body {
+    background-image: none;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: var(--glow-primary);
+  }
+  .text-glow-intense {
+    text-shadow: var(--glow-primary-intense);
+  }
+  .box-glow {
+    box-shadow: var(--glow-primary);
+  }
+  .box-glow-intense {
+    box-shadow: var(--glow-primary-intense);
+  }
+}
