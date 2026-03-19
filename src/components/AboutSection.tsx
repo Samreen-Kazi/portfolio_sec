@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { User, MapPin, Mail } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/SamreenKazi.jpg";
 
 const itemVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -36,7 +36,7 @@ const AboutSection = () => (
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="shrink-0">
-            <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-xl overflow-hidden border-2 border-primary/30 shadow-lg">
+            <div className="w-44 h-44 sm:w-48 sm:h-48 rounded-xl overflow-hidden border-2 border-primary/30 shadow-lg">
               <img
                 src={profilePhoto}
                 alt="Profile photo"
@@ -61,9 +61,8 @@ const AboutSection = () => (
         {/* Info cards */}
         <div className="space-y-4">
           {[
-            { icon: User, label: "Name", value: "John Doe" },
-            { icon: MapPin, label: "Location", value: "San Francisco, CA" },
-            { icon: Mail, label: "Email", value: "john@example.com" },
+            { icon: User, label: "Name", value: "Samreen Kazi" },
+            { icon: Mail, label: "Email", value: "samreenkazi17@gmail.com" },
           ].map((item, i) => (
             <motion.div
               key={item.label}

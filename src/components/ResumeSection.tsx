@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Download } from "lucide-react";
+import resume from "@/assets/resume.pdf";
 
 const ResumeSection = () => (
   <section id="resume" className="py-20">
@@ -21,7 +22,8 @@ const ResumeSection = () => (
         </p>
 
         <a
-          href="#"
+          href={resume}
+          download="resume.pdf"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-mono text-sm font-medium hover:opacity-90 transition-opacity box-glow"
         >
           <Download className="w-4 h-4" />

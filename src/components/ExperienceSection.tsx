@@ -3,36 +3,52 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Security Engineer",
-    company: "CyberDefend Inc.",
-    period: "2023 – Present",
+    title: "Cybersecurity Analyst",
+    company: "Dez Labs",
+    period: "Feb 2026 – Present",
     description:
       "Lead penetration testing engagements and security architecture reviews for Fortune 500 clients. Built internal tooling to automate vulnerability scanning workflows.",
-    skills: ["Penetration Testing", "Cloud Security", "Python"],
+    skills: ["Secure Code Review", "Cyber Security Awareness Programs"],
   },
   {
-    title: "Full-Stack Developer",
-    company: "TechNova Solutions",
-    period: "2021 – 2023",
+    title: "CPS Admin Staff",
+    company: "Chicago Public Schools",
+    period: "Oct 2024 – Present",
     description:
-      "Developed and maintained web applications using React and Node.js. Implemented CI/CD pipelines and improved deployment frequency by 3x.",
-    skills: ["React", "Node.js", "AWS", "Docker"],
+      "Proctor CPS exams and monitor students to ensure academic integrity, accurate records, and smooth test operations. Handle check-ins and administrative tasks with precision, demonstrating strong leadership and attention to detail.",
+    skills: ["Leadership", "Attention to Detail", "Communication"],
   },
   {
-    title: "Security Analyst Intern",
-    company: "SecureNet Labs",
-    period: "2020 – 2021",
+    title: "Information Security Analyst",
+    company: "ProspHer",
+    period: "Oct 2025 – Feb 2026",
     description:
-      "Conducted vulnerability assessments and assisted in incident response. Authored internal security best-practice documentation.",
-    skills: ["SIEM", "Incident Response", "Network Security"],
+      "Conducted an internal cybersecurity audit of ProspHER’s website and digital platforms to evaluate data protection and access controls in alignment with GDPR.",
+    skills: ["GDPR", "Internal Audit", "Best Secure Practices"],
   },
   {
-    title: "Freelance Web Developer",
-    company: "Self-Employed",
-    period: "2019 – 2020",
+    title: "Governanc Risk and Compliance (GRC) Analyst",
+    company: "RWA Inc",
+    period: "Jun 2025 – Oct 2025",
+    description:
+      "Developed and implemented cybersecurity and compliance policies such as Access Control, Acceptable Use, and Data Classification aligned with GDPR and MiCA, enhancing blockchain data protection and compliance readiness.",
+    skills: ["Secure Code Review", "GRC", "Zapp", "MiCA"],
+  },
+    {
+    title: "Web Developer Intern",
+    company: "Vidyalankar Institute of Technology",
+    period: "Jun 2021 – Sep 2021",
+    description:
+      "Engineered a scalable Alumni Management System using PHP, MySQL, JavaScript, HTML/CSS, enhancing database performance by 30% and increasing alumni user engagement by 40% through intuitive UI design.",
+    skills: ["HTML/CSS", "JavaScript", "PHP", "MySQL"],
+  },
+    {
+    title: "Web Developer Intern",
+    company: "Sunarj Technologies",
+    period: "May 2019 – Aug 2019",
     description:
       "Built responsive websites and e-commerce platforms for small businesses. Managed projects end-to-end from design to deployment.",
-    skills: ["HTML/CSS", "JavaScript", "WordPress"],
+    skills: ["HTML/CSS", "JavaScript", "WordPress","Bootstrap"],
   },
 ];
 

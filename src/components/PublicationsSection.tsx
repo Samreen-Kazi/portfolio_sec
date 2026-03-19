@@ -3,19 +3,34 @@ import { FileText, ExternalLink } from "lucide-react";
 
 const publications = [
   {
-    title: "Detecting XSS Vulnerabilities Using Machine Learning",
-    venue: "IEEE Security & Privacy, 2023",
-    link: "#",
+    title: "Illinois Tech students analyze Russian cyberattack on Ukrainian satellite",
+    venue: "Southland Marquee · March 16, 2026",
+    link: "https://southlandmarquee.com/stories/675872223-illinois-tech-students-analyze-russian-cyberattack-on-ukrainian-satellite",
   },
   {
-    title: "A Survey of Zero-Trust Architecture in Modern Web Apps",
-    venue: "ACM Computing Surveys, 2022",
-    link: "#",
+    title: "Breaking Down Cyberattacks on the Invisible Battlefield",
+    venue: "By Casey Moffitt, IIT News · Oct 21, 2025",
+    link: "https://www.iit.edu/news/breaking-down-cyberattacks-invisible-battlefield",
   },
   {
-    title: "Automated Threat Modeling for Microservices",
-    venue: "USENIX Security Symposium, 2022",
-    link: "#",
+    title: "Invisible Battlefields: Analyzing the Viasat Attack and its Broader Implications",
+    venue: "Scientific Bulletin of the “Nicolae Bălcescu” Land Forces Academy, Sibiu, Romania/ Sciendo (De Gruyter) · Jun 23, 2025",
+    link: "https://reference-global.com/article/10.2478/bsaft-2025-0007",
+  },
+  {
+    title: "Rodrick: A Voice Assistant Using Python",
+    venue: "International Journal of Innovative Research in Computer and Communication Engineering · Jan 31, 2024",
+    link: "https://doi.org/10.15680/IJIRCCE.2024.1201065",
+  },
+  {
+    title: "NiftyPlace: An NFT Marektplace Using Blockchain",
+    venue: "Springer Singapore · Jul 20, 2023",
+    link: "https://link.springer.com/chapter/10.1007/978-981-99-3608-3_21",
+  },
+    {
+    title: "NFT Marektplace Using Blockchain",
+    venue: "IEEE · Apr 20, 2023",
+    link: "https://ieeexplore.ieee.org/document/10100326",
   },
 ];
 
@@ -38,7 +53,7 @@ const PublicationsSection = () => (
         transition={{ duration: 0.5 }}
       >
         <h2 className="font-display text-2xl md:text-3xl font-bold mb-2 text-foreground">
-          <span className="text-primary">#</span> Publications
+          <span className="text-primary">#</span> Publications & Featured Articles
         </h2>
         <div className="w-16 h-0.5 bg-primary mb-8" />
       </motion.div>

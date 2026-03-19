@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shield, Code, Globe } from "lucide-react";
+import { Code, Linkedin, Github } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const roles = ["Cybersecurity Specialist", "Full-Stack Developer", "Web Developer"];
@@ -37,19 +37,23 @@ const HeroSection = () => {
         >
           <div className="flex justify-center gap-4 mb-6">
             <div className="p-3 rounded-lg bg-secondary border border-border">
-              <Shield className="w-6 h-6 text-primary" />
+              <a href="https://github.com/Samreen-Kazi">
+              <Github className="w-6 h-6 text-primary" />
+              </a>
             </div>
             <div className="p-3 rounded-lg bg-secondary border border-border">
               <Code className="w-6 h-6 text-primary" />
             </div>
             <div className="p-3 rounded-lg bg-secondary border border-border">
-              <Globe className="w-6 h-6 text-primary" />
+              <a href="https://www.linkedin.com/in/samreenkazi">
+              <Linkedin className="w-6 h-6 text-primary" />
+              </a>
             </div>
           </div>
 
           <p className="font-mono text-sm text-primary mb-3">$ whoami</p>
           <h1 className="font-display text-4xl md:text-6xl font-bold mb-4 text-foreground">
-            John Doe
+            Samreen Kazi
           </h1>
           <div className="font-mono text-lg md:text-2xl text-muted-foreground h-8 md:h-10">
             <span>{text}</span>
