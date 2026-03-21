@@ -2,10 +2,8 @@ import { motion } from "framer-motion";
 import { Award } from "lucide-react";
 
 const certs = [
-  { name: "OSCP – Offensive Security Certified Professional", issuer: "Offensive Security", year: "2023" },
-  { name: "CEH – Certified Ethical Hacker", issuer: "EC-Council", year: "2022" },
-  { name: "AWS Solutions Architect – Associate", issuer: "Amazon Web Services", year: "2022" },
-  { name: "CompTIA Security+", issuer: "CompTIA", year: "2021" },
+  { name: "Google  Cybersecurity Professional Certificate", issuer: "Google", year: "2025" },
+  { name: "CompTIA Security+", issuer: "CompTIA", year: "Ongoing" },
 ];
 
 const cardVariants = {

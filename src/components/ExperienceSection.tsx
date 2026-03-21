@@ -7,7 +7,7 @@ const experiences = [
     company: "Dez Labs",
     period: "Feb 2026 – Present",
     description:
-      "Lead penetration testing engagements and security architecture reviews for Fortune 500 clients. Built internal tooling to automate vulnerability scanning workflows.",
+      "Worked on making the company PDPA compliant. Conducted cybersecurity awareness training for the employees of the company.",
     skills: ["Secure Code Review", "Cyber Security Awareness Programs"],
   },
   {

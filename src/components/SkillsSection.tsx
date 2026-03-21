@@ -2,20 +2,28 @@ import { motion } from "framer-motion";
 
 const skillCategories = [
   {
-    title: "Languages",
-    skills: ["Python", "JavaScript", "TypeScript", "Go", "Bash", "SQL"],
+    title: "Languages & Scripting",
+    skills: ["Python", "JavaScript", "TypeScript", "Java", "C++", "C", "SQL", "PHP", "Bash"],
   },
   {
     title: "Web Development",
-    skills: ["React", "Node.js", "Next.js", "Tailwind CSS", "REST APIs", "GraphQL"],
+    skills: ["React", "Next.js", "Node.js", "REST APIs", "Tailwind CSS", "MySQL"],
   },
   {
-    title: "Cybersecurity",
-    skills: ["Penetration Testing", "OWASP Top 10", "Burp Suite", "Nmap", "Wireshark", "Metasploit"],
+    title: "Security Tools & Platforms",
+    skills: ["Burp Suite", "Nmap", "Wireshark", "Metasploit", "DVWA", "Kali Linux"],
   },
   {
-    title: "DevOps & Tools",
-    skills: ["Docker", "Linux", "Git", "CI/CD", "AWS", "Nginx"],
+    title: "Security Competencies",
+    skills: ["Penetration Testing", "OWASP Top 10", "Vulnerability Assessment", "Incident Response", "Shell Scripting"],
+  },
+  {
+    title: "GRC & Compliance",                                                         
+    skills: ["Security Policy Development", "Risk Assessment", "Regulatory Compliance", "HIPPA", "GDPR", "SOC 2", "PDPA"],
+  },
+  {
+    title: "DevOps & Cloud",
+    skills: ["Docker", "AWS", "CI/CD", "Git", "Linux"],
   },
 ];
 
